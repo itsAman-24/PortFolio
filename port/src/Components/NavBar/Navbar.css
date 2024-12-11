@@ -15,15 +15,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 20px 70px;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 90%;
-  z-index: 10;
-  background: rgba(7, 7, 7, 0.927);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar .image {
@@ -149,8 +140,6 @@ body {
   }
 
   .nav-mob-close {
-    /* display: block;
-    position: relative; */
     top: 30px;
     left: 200px;
     width: 23px;

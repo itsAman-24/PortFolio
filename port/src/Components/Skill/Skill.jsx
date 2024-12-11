@@ -40,16 +40,6 @@ const Skills = () => {
         <div className="experiencs">
           {active === 2 && <Experience />}
         </div>
-        {/* <div className="finishes_container">
-          {finishes.map((finish) => {
-            return (
-              <div className="finishes" key={finish.id}>
-                <div className="number">{finish.number}</div>
-                <h4 className="item_name">{finish.itemName}</h4>
-              </div>
-            );
-          })}
-        </div> */}
       </div>
     </section>
   );

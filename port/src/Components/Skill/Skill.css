@@ -1,6 +1,3 @@
-/* c {
-  max-width: 100vw;
-} */
 
 #skillSec {
   display: flex;
@@ -45,8 +42,6 @@
 }
 
 .title img {
-  /* width: 246px;
-    height: 78px; */
   position: absolute;
   bottom: 0;
   right: 450px;
@@ -55,7 +50,6 @@
 
 .select button {
   color: #ffffff;
-  /* background: black; */
   padding: 0.65rem 1rem;
   border: 1px solid white;
   border-radius: 10px;

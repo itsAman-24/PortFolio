@@ -20,7 +20,7 @@ const Services = () => {
       <div className="service-container">
         {Services_Data.map((service, index) => {
           const isExpanded = expandedIndex === index;
-          const previewText = service.s_desc.substring(0, 60); // Show only first 100 characters
+          const previewText = service.s_desc.substring(0, 60); // Show only first 60 characters
           return (
             <div
               key={index}
