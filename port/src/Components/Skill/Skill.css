@@ -1,0 +1,213 @@
+/* c {
+  max-width: 100vw;
+} */
+
+#skillSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 120px auto;
+  margin-top: 100px;
+}
+
+#skillSec ::-webkit-scrollbar {
+  display: none;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  margin: 2rem 0;
+  margin-bottom: 6rem;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+.title span {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.title h1 {
+  font-size: 22px;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title img {
+  /* width: 246px;
+    height: 78px; */
+  position: absolute;
+  bottom: 0;
+  right: 450px;
+  z-index: -1;
+}
+
+.select button {
+  color: #ffffff;
+  /* background: black; */
+  padding: 0.65rem 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-family: "Poppins";
+}
+
+.select button.active {
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
+  color: #fff;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  row-gap: 30px;
+  column-gap: 125px;
+  /* gap: 70px; */
+}
+
+.skills .tools {
+  display: flex;
+  justify-content: center;
+}
+
+.skills .tools img {
+  width: 160px;
+  height: 90px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.experiencs {
+  display: flex;
+  color: #fff;
+}
+
+.experiencs .experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.experiencs .experience span {
+  font-size: 1.75rem;
+  padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 405px) {
+  .experiencs .experience span {
+    font-size: 1rem;
+  }
+}
+
+.experiencs .experience .position {
+  width: 300px;
+  padding-left: 2.5rem;
+}
+
+.experiencs .experience .position h3 {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 405px) {
+  .experiencs .experience .position h3 {
+    font-size: 0.85rem;
+  }
+}
+
+.experiencs .experience .position p {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 405px) {
+  .experiencs .experience .position p {
+    font-size: 0.65rem;
+  }
+
+  .skills {
+    column-gap: 75px;
+  }
+
+  .title span {
+    font-size: 25px;
+  }
+
+  .title h1 {
+    font-size: 15px;
+  }
+}
+
+.finishes_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  color: #fff;
+}
+
+.finishes_container .number {
+  color: var(--highlight);
+  font-size: 1.7rem;
+}
+
+@media (max-width: 780px) {
+  .skills {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+  }
+
+  .title span {
+    font-size: 50px;
+  }
+
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .skills .tools img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 620px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .title span {
+    font-size: 40px;
+  }
+
+  .title h1 {
+    font-size: 18px;
+  }
+
+  .skills .tools img {
+    width: 80px;
+    height: 60px;
+  }
+}

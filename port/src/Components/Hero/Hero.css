@@ -1,0 +1,178 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border: 6px solid rgb(184, 95, 175);
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(231, 139, 226, 0.403),
+    -5px -5px 20px rgba(240, 100, 216, 0.484);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.5s ease;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+  /* font-weight: 400; */
+}
+
+.hero span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  /* width: 70%; */
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#india {
+  display: inline;
+  font-size: 20px;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #df8908 -5.09%, #b415ff 106.28%);
+  cursor: pointer;
+}
+
+.hero-resume {
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-resume:hover {
+  border-color: #b415ff;
+}
+
+/* Media Query */
+
+@media (max-width: 1200px) {
+  .hero img {
+    margin-top: 120px;
+    width: 260px;
+  }
+
+  .hero h1 {
+    margin-top: 50px;
+    width: 90%;
+    /* font-size: 50px; */
+  }
+
+  .hero p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0px;
+  }
+
+  .hero-action {
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+
+  .hero-connect {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
+
+  .hero-resume {
+    padding: 20px 50px;
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero span {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 610px) {
+  .hero span {
+    font-size: 50px;
+  }
+
+  .hero h1 {
+    font-size: 18px;
+  }
+
+  #india {
+    font-size: 18px;
+  }
+
+  .hero img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .hero-connect {
+    padding: 10px 20px;
+  }
+
+  .hero-resume {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero span {
+    font-size: 40px;
+  }
+
+  .hero h1 {
+    font-size: 15px;
+  }
+
+  #india {
+    font-size: 15px;
+  }
+
+  .hero img {
+    width: 200px;
+    height: 200px;
+  }
+}
