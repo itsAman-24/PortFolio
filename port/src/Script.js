@@ -17,7 +17,6 @@ export const experiences = [
   {
     id: 1,
     year: "Oct 2024 - Present",
-    companyIcon: optswap,
     company: "ReallyMedia",
     link: "http://reallymedia.org",
     position: "Software Developer",
