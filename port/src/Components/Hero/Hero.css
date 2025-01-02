@@ -175,4 +175,18 @@
     width: 200px;
     height: 200px;
   }
+
+}
+
+@media (max-width: 470px) {
+  .hero-connect {
+    padding: 7px 14px;
+    font-size: 15px;
+  }
+
+  .hero-resume {
+    padding: 7px 14px;
+    font-size: 15px;
+  }
+
 }

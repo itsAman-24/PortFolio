@@ -41,13 +41,13 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an experienced Frontend Developer with good problem solving
+              I am an experienced MERN stack developer with good problem solving
               skill along with creating user friendly websites.I have had the
               privilege of collaborating with prestigious organization,
               contributing to their success and growth.
             </p>
             <p>
-              My passion for frontend development is not only reflected in my
+              My passion for Software development is not only reflected in my
               extensive experience but also in the enthusiasm and dedication I
               bring to each project.
             </p>

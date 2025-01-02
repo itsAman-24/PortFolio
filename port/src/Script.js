@@ -16,7 +16,7 @@ export const icons = [c, cpp, java, html, css, js , redux, talwind, bootstrap, M
 export const experiences = [
   {
     id: 1,
-    year: "Oct 2024 - Present",
+    year: "Feb 2024 - Nov 2024",
     company: "ReallyMedia",
     link: "http://reallymedia.org",
     position: "Software Developer",

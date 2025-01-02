@@ -1,5 +1,5 @@
 .footer {
-    margin: 180px 170px;
+    margin: 180px 150px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -15,6 +15,10 @@
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+}
+
+.icon {
+    font-size: 28px;
 }
 
 /* Media Query */
@@ -43,5 +47,9 @@
 
     .footer-bottom-right {
         font-size: 11px;
+    }
+
+    .icon {
+        font-size: 25px;
     }
 }

@@ -66,6 +66,16 @@
 
 /* Media Query */
 
+@media(max-width: 1430px) {
+    .contact-left p {
+        max-width: 200px;
+    }
+    .contact-section {
+        justify-content: space-between;
+    }
+
+}
+
 
 @media(max-width: 1200px) {
     .contact {
