@@ -7,8 +7,16 @@ import project6_img from '../assets/project6.png'
 import project7_img from '../assets/project7.png'
 import project8_img from '../assets/project8.png'
 import project9_img from '../assets/project9.png'
+import project10_img from '../assets/project10.png'
 
 const mywork_data = [
+    {
+        w_no:10,
+        w_name:"Web design",
+        w_img:project10_img,
+        source: "https://github.com/itsAman-24/SafeHaven",
+        live: "https://safe-haven-five.vercel.app/"
+    },
     {
         w_no:2,
         w_name:"Web design",
